@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    background-color: #282d35;
+    color: white;
+    padding:30px 20px 90px 20px;
+    justify-content: center;
+    line-height: 40px ;
+    width: 520px;
+    font-family: 'Inter', sans-serif;
+    background-image: url(../assets/logo-trans.png);
+
+    background-position: 165% 75%;
+    background-repeat: no-repeat;
+    background-size: 300px;
+
+}
+ul li::marker {
+   color:aqua;
+   font-size: 25px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: -0.05em;
+    
+}

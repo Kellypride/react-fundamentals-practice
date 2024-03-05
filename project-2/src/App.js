@@ -1,5 +1,4 @@
 import './App.css';
-// import assets from "./logo.png"
 import MainContent from './components/Main/MainContent';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
