@@ -1,10 +1,22 @@
 .card {
+    padding-left: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
     width: 175px;
+    position: relative;
+}
+.card-badge {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    padding: 3px 7px;
+    background-color: white; 
+    border-radius: 2px;
+    font-weight: bold; 
+    font-size: 12px;
 }
 .card-image {
     width: 100%;
@@ -23,30 +35,18 @@
 .bold {
     font-weight: bold;
 }
-.crad-left {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.crad-middle {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.crad-right {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+
 
 
 /* Media query for larger screens */
 @media screen and (min-width: 768px) {
   .card {
-    display: flex;
+    flex: 0 0 auto;
+    /* display: flex; */
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    width: 175px;
 }
 } 

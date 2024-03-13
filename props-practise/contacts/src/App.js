@@ -5,7 +5,7 @@ import { cat11, cat12, cat13, cat14 } from './assets';
 function App() {
 
   return (
-    <div className="App flex">
+    <div className="App ">
       <div className='container'>
         <Contacts 
         img={cat11} 
