@@ -1,4 +1,3 @@
-import "./assets"
 const cardsItems = [
     {
         id: 1,
